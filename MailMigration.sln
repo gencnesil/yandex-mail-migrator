@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E87AB1E-E72B-47C6-B43D-103EA239186E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.Application", "src\MailMigration.Application\MailMigration.Application.csproj", "{7215C673-80E1-485B-8170-E42F204EA89F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.Domain", "src\MailMigration.Domain\MailMigration.Domain.csproj", "{4AEFDFEC-05EB-4811-833D-0355B57B9A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.Infrastructure", "src\MailMigration.Infrastructure\MailMigration.Infrastructure.csproj", "{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.Persistence", "src\MailMigration.Persistence\MailMigration.Persistence.csproj", "{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.UI", "src\MailMigration.UI\MailMigration.UI.csproj", "{FE82386B-26E6-41A6-8166-C9468D5F7288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A18CDFF0-272A-4D97-8076-E5887395E8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMigration.Tests", "tests\MailMigration.Tests\MailMigration.Tests.csproj", "{15C98F0D-7B20-4808-B35B-7B1C10C168F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7215C673-80E1-485B-8170-E42F204EA89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7215C673-80E1-485B-8170-E42F204EA89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7215C673-80E1-485B-8170-E42F204EA89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7215C673-80E1-485B-8170-E42F204EA89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEFDFEC-05EB-4811-833D-0355B57B9A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEFDFEC-05EB-4811-833D-0355B57B9A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEFDFEC-05EB-4811-833D-0355B57B9A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEFDFEC-05EB-4811-833D-0355B57B9A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE82386B-26E6-41A6-8166-C9468D5F7288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE82386B-26E6-41A6-8166-C9468D5F7288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE82386B-26E6-41A6-8166-C9468D5F7288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE82386B-26E6-41A6-8166-C9468D5F7288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C98F0D-7B20-4808-B35B-7B1C10C168F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C98F0D-7B20-4808-B35B-7B1C10C168F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C98F0D-7B20-4808-B35B-7B1C10C168F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C98F0D-7B20-4808-B35B-7B1C10C168F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7215C673-80E1-485B-8170-E42F204EA89F} = {4E87AB1E-E72B-47C6-B43D-103EA239186E}
+		{4AEFDFEC-05EB-4811-833D-0355B57B9A31} = {4E87AB1E-E72B-47C6-B43D-103EA239186E}
+		{75FB6B31-B9EE-4AF6-B7B4-6DF4F7CBF2E6} = {4E87AB1E-E72B-47C6-B43D-103EA239186E}
+		{A87DDA89-B9ED-46E6-AE1B-A28975CB7B6F} = {4E87AB1E-E72B-47C6-B43D-103EA239186E}
+		{FE82386B-26E6-41A6-8166-C9468D5F7288} = {4E87AB1E-E72B-47C6-B43D-103EA239186E}
+		{15C98F0D-7B20-4808-B35B-7B1C10C168F4} = {A18CDFF0-272A-4D97-8076-E5887395E8B5}
+	EndGlobalSection
+EndGlobal

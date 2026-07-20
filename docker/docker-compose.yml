@@ -1,0 +1,24 @@
+services:
+  source-imap:
+    build: ./dovecot
+    ports: ["1143:143"]
+    environment:
+      MAIL_USER: test@example.test
+      MAIL_PASSWORD: Test123!
+    volumes: ["source-mail:/var/mail"]
+  target-imap:
+    build: ./dovecot
+    ports: ["2143:143"]
+    environment:
+      MAIL_USER: test@example.test
+      MAIL_PASSWORD: Test123!
+    volumes: ["target-mail:/var/mail"]
+  smtp:
+    image: boky/postfix:v4.4.0
+    ports: ["1025:587"]
+    environment:
+      ALLOWED_SENDER_DOMAINS: example.test
+      HOSTNAME: mail.example.test
+volumes:
+  source-mail:
+  target-mail:

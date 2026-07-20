@@ -5,6 +5,10 @@ obj/
 .dotnet-home/
 .appdata/
 artifacts/
+!artifacts/
+!artifacts/app/
+!artifacts/app/MailMigrationDesktop.exe
+*.pdb
 *.user
 *.db
 *.db-shm
